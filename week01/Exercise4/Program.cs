@@ -31,10 +31,10 @@ class Program
         }
         Console.WriteLine($"The sum is: {sum}");
         //Core Requirement #2: Compute the average
-        double average = 0; 
+        float average = 0; 
         if (numbers.Count > 0)
         {
-            average = (double)sum / numbers.Count;
+            average = (float)sum / numbers.Count;
         }
         Console.WriteLine($"The average is: {average}");
 
