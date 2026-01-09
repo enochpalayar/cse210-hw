@@ -51,8 +51,13 @@ class Program
         {
             sign = "";
         }
-
-
+        
+        //Removes sign for 100
+        if (letter == "A" && gradePercentage == 100)
+        {
+            sign = ""; 
+        }
+        
         Console.WriteLine($"Your grade is: {letter}{sign}");
 
         if (gradePercentage >= 70)
