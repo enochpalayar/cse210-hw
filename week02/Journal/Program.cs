@@ -37,7 +37,7 @@ class Program
                     _entryText = response
                 };
                 journal.AddEntry(entry);
-                
+                //Stretch Challenge: I added streak counter to motivate user to journal
                 streakCounter.UpdateStreak(entry._date);
                 streakCounter.DisplayStreak();
             }
